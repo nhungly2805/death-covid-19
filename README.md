@@ -9,7 +9,9 @@ Phương trình hồi quy được sử dụng như sau:
 Lndeath = β0 + β1*gdp_per_capital + β2*diabetes_prevalence + β3*ln_pop + β4*ln_vaccine + β5*aged_70_older + β6*low_HDI + β7*medium_HDI + β8*high_HDI + εj 
 
 Dữ liệu trích xuất được thể hiện trong file du_lieu_chinh.xlsx
+
 Câu lệnh chạy hồi quy trên R được thể hiện trong file cau_lenh_tren_phan_mem_R
+
 Kết quả chạy từ phần mềm R thể hiện trong file ket_qua_tren_R
 
 Nghiên cứu này đã tìm ra được mối liên hệ giữa một số biến độc lập với biến phụ thuộc - số người tử vong vì Covid-19. Cụ thể, các biến độc lập tổng số liều vắc-xin được tiêm, dân số, tỷ lệ người trên 70 tuổi có ảnh hưởng tích cực đến biến phụ thuộc. Biến GDP bình quân đầu người, hai biến giả chỉ số HDI thấp, chỉ số HDI trung bình có ảnh hưởng tiêu cực đến biến phụ thuộc dựa trên cơ sở so sánh với biến giả chỉ số HDI rất cao. Biến tỷ lệ mắc bệnh tiểu đường và biến giả chỉ số HDI cao không có mối tương quan với biến phụ thuộc.
